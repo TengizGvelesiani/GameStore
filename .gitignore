@@ -1,0 +1,29 @@
+## Build outputs
+bin/
+obj/
+
+## VS / Rider / IDE
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Logs
+*.log
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+## Dotnet tools
+.store/
+.tools/
+.dotnet/
+
+## Others
+.DS_Store
+Thumbs.db
+
